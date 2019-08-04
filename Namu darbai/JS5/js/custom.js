@@ -1,9 +1,11 @@
-function arJums18 (x)
+function arJums18(amzius)
 {
-    if (x >= 18) {
-        document.write ("TRUE")
+    if (amzius >= 18) {
+    result = Boolean(amzius);
+    return result;
     }
     else {
-        document.write ("FALSE")
+    result = false;
+    return result;
     }
 }
