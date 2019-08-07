@@ -8,7 +8,7 @@ function duokManSavaitesDienaPagalSkaiciu(index){
         "sestadienis",
         "sekmadienis"
     ];
-    let savaite = savaitesDienos.indexOf[];
-    return index;
+    let savaitesDiena = savaitesDienos[index];
+    document.write(savaitesDiena);
     
 }
