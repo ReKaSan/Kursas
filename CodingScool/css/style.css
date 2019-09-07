@@ -67,7 +67,7 @@
      .coll12{width: 100%;}
  }
 
-
+/*
  .collapsible {
      background-color: rgb(0, 128, 255);
      color: white;
@@ -90,26 +90,26 @@
      display: none;
      overflow: hidden;
      background-color: #f1f1f1;
- }
+ } */
 
 
  nav {
      position: inherit;
      top: 0;
-     background-color: rgb(0, 128, 255);
+     background-color: #33879c;
      height: 10vh;
 
  }
 
  footer,
  nav {
-     background-color: rgb(0, 128, 255);
+     background-color: #33879c;
      color: white;
      position: inherit;
  }
 
  .page-footer {
-     background-color: rgb(0, 128, 255);
+     background-color: #33879c;
  }
 
  input[type=text],
@@ -126,7 +126,7 @@
  }
 
  input[type=submit] {
-     background-color: rgb(0, 128, 255);
+     background-color: #33879c;
      color: white;
      padding: 12px 20px;
      border: none;
@@ -142,6 +142,7 @@
      display: flex;
      flex-wrap: wrap;
      width: 100%;
+     margin-bottom: auto;
  }
 
  .row-centered {
@@ -162,4 +163,42 @@ a:hover {
 
 a {
   color: white;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: rgb(0, 95, 255);
+}
+
+.collapsible-body span{
+  font-style: oblique;
+}
+
+.collapsible-body {
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+.collapsible-header:hover {
+  background-color: #33879c;
+  color:white !important;
+}
+
+h2 {
+  padding: 14px;
 }
